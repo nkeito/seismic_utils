@@ -1,0 +1,30 @@
+#this is a settings file to help to train and test the DNN
+#
+#Training data
+/tmp/TargetTrainM1T1T2_VS.csv
+#
+#
+#
+#Testing data
+/tmp/testingM1T3_VS.csv
+#
+#
+#Activation function
+#avaible functions can be found in 
+# https://www.tensorflow.org/api_docs/python/tf/nn
+#Some of them ara tanh, relu, sigmoid, 
+#this script can't handle custom functions
+tanh
+#
+#
+#network architecture
+7,5
+#16,16,16,16,16
+#8,2,1,3,4
+#Always must be in this way, i.e. comma separated
+#
+#
+#
+#dropout
+#from zero to 1
+0.0
